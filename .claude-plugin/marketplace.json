@@ -1,0 +1,20 @@
+{
+  "name": "aw-mods",
+  "description": "Claude Code mods by aw",
+  "owner": {
+    "name": "aw",
+    "email": "se.adisorn@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "agent-meter",
+      "source": "./agent-meter",
+      "description": "A band above the prompt showing context and token usage, cost, and the subagents running now"
+    },
+    {
+      "name": "context-tree",
+      "source": "./context-tree",
+      "description": "A file tree pane colored by what Claude read and wrote this session, with the context tokens each file added"
+    }
+  ]
+}

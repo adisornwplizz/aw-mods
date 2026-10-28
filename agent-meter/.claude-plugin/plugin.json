@@ -1,0 +1,21 @@
+{
+  "name": "agent-meter",
+  "version": "0.3.0",
+  "description": "A band above the prompt showing context and token usage, cost, and the subagents running now",
+  "author": { "name": "aw", "email": "se.adisorn@gmail.com" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "warnTokens": {
+      "type": "number",
+      "title": "Warn at (tokens)",
+      "description": "Context size that turns the band yellow and raises one toast",
+      "default": 500000
+    },
+    "alertTokens": {
+      "type": "number",
+      "title": "Alert at (tokens)",
+      "description": "Context size that turns the band red and raises one toast",
+      "default": 800000
+    }
+  }
+}

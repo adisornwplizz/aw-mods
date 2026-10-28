@@ -1,0 +1,22 @@
+{
+  "name": "context-tree",
+  "version": "0.4.0",
+  "description": "A file tree pane colored by what Claude read and wrote this session, with the context tokens each file added",
+  "author": {
+    "name": "aw",
+    "email": "se.adisorn@gmail.com"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "follow": {
+      "type": "string",
+      "title": "Follow Claude",
+      "description": "on: a folder opens by itself when Claude reads or writes a file inside it. off: folders open only when you click them; their color still shows Claude worked inside.",
+      "default": "on",
+      "options": [
+        "on",
+        "off"
+      ]
+    }
+  }
+}
